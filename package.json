@@ -1,0 +1,25 @@
+{
+  "name": "@extra-npm/config",
+  "version": "0.0.1",
+  "description": "Manage the npm configuration files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodef/extra-npm.config.git"
+  },
+  "keywords": [
+    "extra",
+    "npm",
+    "config",
+    "file"
+  ],
+  "author": "wolfram77@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nodef/extra-npm.config/issues"
+  },
+  "homepage": "https://github.com/nodef/extra-npm.config#readme"
+}

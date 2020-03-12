@@ -1,2 +1,1 @@
-# extra-npm.config
-Manage the npm configurtion files.
+Manage the npm configuration files.
