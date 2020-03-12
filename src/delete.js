@@ -1,20 +1,21 @@
 'use strict';
-const npmrc = require('@extra-npm/npmrc');
-const ini = require('ini');
+const edit = require('./edit');
+
 
 
 /**
- * Shows all the config settings.
+ * Deletes the key from all configuration files.
+ * @param {string} key configuration key
  * @param {object} o options
  * @param {boolean} o.project get project config
  * @param {boolean} o.global get global config
  * @param {object} o.projectconfig path to project npmrc
  * @param {object} o.userconfig path to user npmrc
  * @param {object} o.globalconfig path to global npmrc
- * @returns {object}
  */
-function list(o = null) {
-  var rc = npmrc.read(o);
-  return ini.parse(rc);
+function _delete(key, o = null) {
+  var cfg = {};
+  cfg[key] = undefined;
+  edit(cfg, o);
 }
-module.exports = list;
+module.exports = _delete;
