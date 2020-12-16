@@ -1,6 +1,6 @@
 {
   "name": "@extra-npm/config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Manage the npm configuration files.",
   "main": "index.js",
   "scripts": {
@@ -26,6 +26,6 @@
     "@extra-npm/npmrc": "^1.0.0"
   },
   "dependencies": {
-    "ini": "^1.3.5"
+    "ini": "^2.0.0"
   }
 }
